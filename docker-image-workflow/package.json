@@ -1,0 +1,17 @@
+{
+  "name": "docker-image-workflow",
+  "version": "1.0.0",
+  "description": "A project for creating and managing a Docker image for the application.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "build": "docker build -t docker-image-workflow .",
+    "push": "docker push docker-image-workflow"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
